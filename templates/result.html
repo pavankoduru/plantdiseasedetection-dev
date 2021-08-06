@@ -1,0 +1,27 @@
+
+<html >
+  <head>
+    <style>
+      .center {
+  margin: auto;
+  width: 50%;
+  vertical-align: middle;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+body{
+      background:url({{url_for('static', filename='resultpage.jpg')}});
+      background-position:center;
+      background-repeat:none;
+      background-size:cover;
+    }
+    </style>
+    <title>
+    resultPage
+    </title>
+  </head>
+  <body align="center">
+    <p> <h1 class="center">Type of disease is {{name}}<h1><p>
+  </body>
+</html>
